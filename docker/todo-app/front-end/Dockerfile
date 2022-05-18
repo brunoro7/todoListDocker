@@ -1,5 +1,5 @@
 FROM node:14-alpine
-WORKDIR /docker/todo-app/front-end/
+WORKDIR /
 # RUN npm install
 COPY . .
 ADD node_modules.tar.gz .
